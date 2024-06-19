@@ -8,7 +8,7 @@
 
 body {
   text-align: center;
-  background-color: lightgray;
+  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.7rem;
 }
@@ -30,8 +30,12 @@ a {
 .navigation {
   background-color: rgba(4, 19, 51, 0.968);
   color: whitesmoke;
+  height: 90vh;
 }
 
+.lower-content {
+  margin-top: 80px;
+}
 .top-nav,
 .lower-content {
   display: flex;
@@ -46,8 +50,71 @@ a {
 
 header {
   text-align: left;
+  margin: 30px 0;
+}
+
+header p {
+  line-height: 1.3rem;
 }
 
 header * {
   margin: 5px 0;
+}
+
+/* dealing with upper showcase */
+main .sentence {
+  font-weight: bolder;
+  margin: 10px;
+  padding-top: 30px;
+}
+
+.boxes {
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  padding: 60px;
+}
+
+.boxes img {
+  width: 15vw;
+}
+
+/* showcase */
+.showcase {
+  background-color: lightgray;
+  text-align: left;
+  padding: 40px 70px;
+  font-style: italic;
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+
+.showcase .quote {
+  text-align: right;
+  font-weight: bold;
+}
+
+/* lowershowcase */
+.lower-showcase {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 40px;
+  align-items: center;
+  background-color: rgb(89, 84, 240);
+  color: white;
+  margin: 40px 60px;
+  font-size: 0.9rem;
+}
+
+.lower-showcase .btn {
+  border: 1px solid white;
+}
+
+/* footer */
+footer {
+  background-color: rgba(4, 19, 51, 0.968);
+  color: white;
+  padding: 10px;
 }
