@@ -11,6 +11,7 @@ body {
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.7rem;
+  font-size: 1.2rem;
 }
 
 a {
@@ -51,7 +52,6 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 30px 70px;
-  font-size: 1.2rem;
 }
 
 .top-nav nav {
@@ -87,7 +87,6 @@ main .sentence {
   display: flex;
   width: 100vw;
   justify-content: space-evenly;
-  font-size: 0.8rem;
   line-height: 1.2rem;
   padding: 60px;
 }
@@ -103,7 +102,6 @@ main .sentence {
   text-align: left;
   padding: 40px 70px;
   font-style: italic;
-  font-size: 1.1rem;
   font-weight: 100;
 }
 
@@ -121,7 +119,6 @@ main .sentence {
   background-color: rgb(89, 84, 240);
   color: white;
   margin: 40px 60px;
-  font-size: 0.9rem;
 }
 
 .lower-showcase .btn {
