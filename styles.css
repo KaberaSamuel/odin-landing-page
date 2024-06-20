@@ -33,6 +33,10 @@ a {
   height: 90vh;
 }
 
+.navigation p span {
+  color: orange;
+}
+
 .lower-content {
   margin-top: 80px;
 }
@@ -78,7 +82,8 @@ main .sentence {
 }
 
 .boxes img {
-  width: 15vw;
+  width: 120px;
+  height: 80px;
 }
 
 /* showcase */
