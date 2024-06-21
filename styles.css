@@ -11,7 +11,7 @@ body {
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.7rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 a {
@@ -25,6 +25,10 @@ a {
   color: white;
   padding: 5px 10px;
   border-radius: 10px;
+}
+
+h1 {
+  font-weight: 500;
 }
 
 /* top part */
@@ -65,7 +69,6 @@ header {
 }
 
 header h1 {
-  font-weight: 550;
   line-height: 2.5rem;
 }
 
@@ -99,8 +102,12 @@ main .sentence {
 }
 
 .boxes img {
-  width: 120px;
-  height: 80px;
+  width: 180px;
+  height: 120px;
+}
+
+.boxes p {
+  font-size: 1rem;
 }
 
 /* showcase */
